@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Cat body -->
+  <ellipse cx="100" cy="120" rx="40" ry="50" fill="#ff9a56"/>
+
+  <!-- Cat head -->
+  <circle cx="100" cy="70" r="35" fill="#ff9a56"/>
+
+  <!-- Left ear -->
+  <path d="M 75 45 L 65 20 L 85 50 Z" fill="#ff9a56"/>
+
+  <!-- Right ear -->
+  <path d="M 125 45 L 135 20 L 115 50 Z" fill="#ff9a56"/>
+
+  <!-- Inner left ear -->
+  <path d="M 75 45 L 70 30 L 80 48 Z" fill="#ffb380"/>
+
+  <!-- Inner right ear -->
+  <path d="M 125 45 L 130 30 L 120 48 Z" fill="#ffb380"/>
+
+  <!-- Left eye -->
+  <ellipse cx="88" cy="68" rx="6" ry="10" fill="#000"/>
+  <ellipse cx="88" cy="65" rx="3" ry="5" fill="#fff"/>
+
+  <!-- Right eye -->
+  <ellipse cx="112" cy="68" rx="6" ry="10" fill="#000"/>
+  <ellipse cx="112" cy="65" rx="3" ry="5" fill="#fff"/>
+
+  <!-- Nose -->
+  <path d="M 100 78 L 97 82 L 103 82 Z" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M 100 82 Q 95 88 90 85 M 100 82 Q 105 88 110 85" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Whiskers left -->
+  <line x1="60" y1="75" x2="85" y2="73" stroke="#000" stroke-width="1.5"/>
+  <line x1="60" y1="80" x2="85" y2="78" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Whiskers right -->
+  <line x1="140" y1="75" x2="115" y2="73" stroke="#000" stroke-width="1.5"/>
+  <line x1="140" y1="80" x2="115" y2="78" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Left arm -->
+  <ellipse cx="75" cy="130" rx="12" ry="25" fill="#ff9a56"/>
+
+  <!-- Right arm -->
+  <ellipse cx="125" cy="130" rx="12" ry="25" fill="#ff9a56"/>
+
+  <!-- Left leg -->
+  <ellipse cx="85" cy="165" rx="10" ry="20" fill="#ff9a56"/>
+
+  <!-- Right leg -->
+  <ellipse cx="115" cy="165" rx="10" ry="20" fill="#ff9a56"/>
+
+  <!-- Tail -->
+  <path d="M 135 140 Q 160 130 165 110 Q 168 95 160 85" stroke="#ff9a56" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="135" rx="20" ry="25" fill="#ffb380" opacity="0.6"/>
+</svg>
